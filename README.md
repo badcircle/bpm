@@ -11,7 +11,7 @@ A high-performance command-line tool written in C that detects the BPM (Beats Pe
 - Memory-efficient streaming processing
 - Handles BPM ranges from 60 to 200 BPM
 
-## Prerequisites
+## Prerequisites to build
 
 You need MinGW-w64 and MSYS2 installed on your Windows system. The following libraries are required:
 
@@ -19,6 +19,9 @@ You need MinGW-w64 and MSYS2 installed on your Windows system. The following lib
 - OpenMP (for parallel processing)
 
 ## Installation
+See Releases
+
+## Installation from source
 
 1. Install MSYS2 from https://www.msys2.org/
 
