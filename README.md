@@ -73,6 +73,12 @@ Estimated BPM: 144
 4. **Onset Detection**: Uses adaptive thresholding to detect significant changes in energy
 5. **BPM Calculation**: Analyzes intervals between onsets to determine the dominant tempo
 
+## Energy stats
+Mean represents the average "background" level of the song
+Max represents the loudest peak/moment
+Standard deviation tells us how much the song typically varies from that background level
+Threshold is our "this is probably a beat" cutoff point, set above the normal variation (mean + 1.5 * std_dev)
+
 ## Performance
 
 The program uses several optimizations for performance:
