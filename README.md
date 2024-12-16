@@ -46,7 +46,7 @@ gcc -O3 -fopenmp bpm.c -o bpm.exe -I"C:/msys64/mingw64/include" -L"C:/msys64/min
 ## Usage
 
 ```bash
-./bpm.exe path/to/your/music.mp3
+.\bpm.exe path\to\your\music.mp3
 ```
 
 Example output:
